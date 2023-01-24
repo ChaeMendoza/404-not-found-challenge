@@ -2,6 +2,14 @@ body {
   background-color: rgb(250, 250, 250);
 }
 
+header {
+  padding: 10px;
+}
+
+.title-header {
+  margin-left: 4rem;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -37,7 +45,7 @@ body {
 
 footer {
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 4rem;
   color: rgb(63, 63, 63);
 }
 
