@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.homero {
+  filter: drop-shadow(5px 5px 10px rgb(37, 37, 37));
+  margin-left: 5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 2px rgb(37, 37, 37));
+}
+
+.description {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin-top: 8rem;
+  color: rgb(63, 63, 63);
+}
+
+a {
+  text-decoration: none;  
+  color: rgb(63, 63, 63);
+}
