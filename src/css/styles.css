@@ -53,3 +53,28 @@ a {
   text-decoration: none;  
   color: rgb(63, 63, 63);
 }
+
+/* Responsive Desing */
+@media only screen and (max-width : 700px) {
+  .title-header {
+    margin-left: 1rem;
+  }
+
+  .homero {
+    width: 300px;
+    margin-left: 1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 2.1rem;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+}
